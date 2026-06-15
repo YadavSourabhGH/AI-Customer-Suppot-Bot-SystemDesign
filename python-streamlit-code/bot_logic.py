@@ -29,10 +29,13 @@ class SupportBot:
         
         prompt_parts.extend([
             "Instructions:\n",
+            "- You must ONLY answer questions directly related to Visual Builders (our services, pricing, metrics, contact details, FAQs).\n",
+            "- STRICTLY refuse to write code, write scripts, solve math problems, answer general knowledge queries, or engage in unrelated chit-chat.\n",
+            "- If a query is unrelated to Visual Builders, politely decline, state that you are only programmed to assist with Visual Builders, and offer to help them with the company's services.\n",
             "- Reply like a helpful human in natural conversational messages.\n",
             "- Use information from the company context above to answer accurately.\n",
             "- If unsure, ask one clarifying question.\n",
-            f"- If you cannot help, contact human support at {SUPPORT_EMAIL} or visit {website}."
+            f"- If you cannot help with a valid company query, contact human support at {SUPPORT_EMAIL} or visit {website}."
         ])
         self.system_prompt = "".join(prompt_parts)
 
