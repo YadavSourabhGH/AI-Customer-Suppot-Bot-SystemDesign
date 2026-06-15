@@ -1,0 +1,19 @@
+graph TD
+    User((User)) -->|Interacts with| UI[Streamlit Frontend]
+    UI -->|Sends Query| BL[Bot Logic - Python]
+    BL -->|API Request| Groq[Groq Cloud API]
+    Groq -->|LLM Processing| Llama[Llama 3 Model]
+    Llama -->|Generated Response| Groq
+    Groq -->|API Response| BL
+    BL -->|Formatted Response| UI
+    UI -->|Displays| User
+
+    subgraph "System Components"
+        UI
+        BL
+    end
+
+    subgraph "External Services"
+        Groq
+        Llama
+    end

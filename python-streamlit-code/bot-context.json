@@ -1,0 +1,90 @@
+{
+  "company": {
+    "name": "Visual Builders",
+    "display_name": "VISUAL BUILDERS",
+    "tagline": "We build digital weapons for businesses that refuse to be invisible.",
+    "website": "https://visualbuilders.in",
+    "hero": {
+      "headline": "While You Sleep, Your Competitors Are Eating Your Market",
+      "subhead": "AI-powered. Conversion-obsessed. Results-guaranteed.",
+      "ctas": [
+        { "label": "Book a Free Strategy Call", "action": "book_call" },
+        { "label": "Get Started", "action": "get_started" }
+      ]
+    },
+    "overview": "Visual Builders builds digital weapons that turn invisible businesses into unstoppable market dominators. We combine fast product delivery, AI automation, and conversion-first design to deliver measurable growth.",
+    "mission": "Bring enterprise-level technology to ambitious founders without enterprise-level cost.",
+    "principles": ["Innovation First: Cutting-edge AI solutions", "Results Driven: We measure success by your growth", "Always Available: Your success is our priority"]
+  },
+  "contact": {
+    "phones": ["+91 99670 74374", "+91 80973 09833"],
+    "email": "buildersvisual@gmail.com",
+    "website": "https://visualbuilders.in",
+    "response": "⚡ Response within 2 hours",
+    "notes": "No contracts • Pay for results",
+    "social": "@visual_builders",
+    "locations": "Remote-first, Global reach"
+  },
+  "metrics": {
+    "avg_growth": "100%",
+    "avg_launch_time": "72h",
+    "markets_dominated": 100,
+    "impressions_generated": "1M+",
+    "client_revenue_generated": "1M+",
+    "time_saved_per_client": "40h/wk",
+    "client_retention": "100%"
+  },
+  "services": [
+    { "name": "Web Development", "short": "Full Stack Domination", "desc": "Lightning-fast, conversion-optimized websites that turn visitors into customers. Built to scale." },
+    { "name": "App Development", "short": "Mobile Supremacy", "desc": "iOS & Android apps that users can't put down — sticky, revenue-generating experiences." },
+    { "name": "AI Automation", "short": "24/7 Workforce", "desc": "AI handles leads, support, and operations so your business runs while you sleep." },
+    { "name": "AI Product Creation", "short": "Future-Proof Products", "desc": "Build AI-powered products that make competitors obsolete." },
+    { "name": "AI Marketing & Scaling", "short": "Exponential Growth", "desc": "AI-driven campaigns that find, convert, and retain customers at scale." },
+    { "name": "Virtual Assistance", "short": "Elite Operations", "desc": "Trained specialists who handle operations so you can focus on growth." },
+    { "name": "SEO Domination", "short": "Page One or Nothing", "desc": "Rank higher than competitors and own your keywords forever." },
+    { "name": "Video Production", "short": "Viral Content Engine", "desc": "Scroll-stopping videos that build brand authority and drive engagement." },
+    { "name": "Business Consultation", "short": "Strategic Warfare", "desc": "Battle-tested strategies from operators who've scaled businesses to 8 figures." }
+  ],
+  "process": [
+    { "step": "Discover", "desc": "We dissect your business, market, and competitors to find weaknesses and opportunities others miss." },
+    { "step": "Build", "desc": "Our elite team constructs your digital weapons — fast, precise, and conversion-optimized from day one." },
+    { "step": "Scale", "desc": "Launch campaigns, automate systems, and watch your metrics explode." },
+    { "step": "Dominate", "desc": "You own the market while competitors scramble to catch up." }
+  ],
+  "case_studies": [
+    { "name": "Cave Cafe", "industry": "Restaurant & Cafe", "outcomes": { "reservations": "3x", "bounce_rate": "50% lower" }, "tagline": "Turning coffee lovers into loyal customers" },
+    { "name": "Fitness Factory", "industry": "Gym & Fitness", "outcomes": { "new_signups": 200, "lead_generation": "5x" }, "tagline": "Where gains meet great design" }
+  ],
+  "pricing": [
+    {
+      "tier": "Launch",
+      "range": "₹7,999 – ₹14,999",
+      "suitable_for": "Small businesses, solo founders",
+      "includes": ["Single page website or landing page", "Mobile responsive design", "Basic SEO", "3-day delivery", "1 revision", "30-day support"]
+    },
+    {
+      "tier": "Growth",
+      "label": "Most Popular",
+      "range": "₹14,999 – ₹24,999",
+      "suitable_for": "Startups, coaches, growing brands",
+      "includes": ["Multi-page website or web app", "Custom UI/UX", "Advanced SEO & analytics", "7-day delivery", "3 revisions", "AI automation integration", "90-day priority support", "Monthly strategy call"]
+    },
+    {
+      "tier": "Domination",
+      "label": "Premium",
+      "range": "Custom Price",
+      "suitable_for": "Businesses that want to automate, scale, and dominate",
+      "includes": ["Full custom web or mobile app", "Multiple AI automations", "Lead generation + marketing automation", "SEO + funnels", "Custom integrations", "Priority support", "Strategy calls", "Unlimited revisions within scope"],
+      "delivery": "3–5 weeks"
+    }
+  ],
+  "guarantee": "Money-back guarantee. No results = no payment.",
+  "faqs": [
+    { "q": "How fast can you launch?", "a": "Average launch time is 72 hours for standard projects." },
+    { "q": "Do you offer a guarantee?", "a": "Yes — a money-back guarantee: no results, no payment." },
+    { "q": "Do you handle payments and integrations?", "a": "Yes — we integrate with CRMs, payment gateways, and analytics platforms as needed." },
+    { "q": "What industries do you serve?", "a": "We work across restaurants, fitness, ecommerce, SaaS, and professional services." },
+    { "q": "How do I book a call?", "a": "Use the Book a Free Strategy Call CTA or email buildersvisual@gmail.com to schedule." }
+  ],
+  "legal": { "copyright": "© 2026 VISUAL BUILDERS. All rights reserved.", "privacy": "Privacy Policy", "terms": "Terms of Service" }
+}

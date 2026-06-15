@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.env
+.venv/
+venv/
+ENV/
+
+# System / IDE files
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.sw?
+
+# Project-specific ignored files
+chrome/
+*.log
