@@ -11,8 +11,29 @@ st.set_page_config(page_title="AI Customer Support Bot", page_icon="🤖")
 st.title("🤖 AI Customer Support Bot")
 st.markdown("Welcome! How can we help you today?")
 
-# Initialize Groq API Key from environment
+# Initialize Groq API Key from environment or Streamlit secrets
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+if not GROQ_API_KEY:
+    try:
+        if "GROQ_API_KEY" in st.secrets:
+            GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+    except Exception:
+        pass
+
+if not GROQ_API_KEY:
+    st.warning("⚠️ **Groq API Key is missing!**")
+    st.info("""
+    Please configure your Groq API Key to proceed:
+    - **Local Development:** Create a `.env` file in the `python-streamlit-code` directory and add:
+      ```env
+      GROQ_API_KEY=gsk_your_key_here
+      ```
+    - **Streamlit Cloud:** Go to your App Settings, select **Secrets**, and add:
+      ```toml
+      GROQ_API_KEY = "gsk_your_key_here"
+      ```
+    """)
+    st.stop()
 
 if "bot" not in st.session_state:
     st.session_state.bot = SupportBot(api_key=GROQ_API_KEY)
